@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    border: solid 5px rgb(12, 11, 11);
+    background-color: darkgoldenrod;
+}
+
+.img{
+    width: 1000px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+
+
+}
+
+.links a{
+    color: rgb(255, 255, 255);
+}
+
+.links li{
+    margin-right:30px ;
+    
+}
+
+
+
+body{
+    background-image: url(../img/madeira-madeira-fundos-texturizado-padrao-papel-parede-conceito_53876-14103.jpg);
+}
+
+
+
+article{
+   
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+    top: -5px;
+
+    font-family: fantasy;
+    text-align: center;
+    font-size: 1.5rem;
+   
+}
+
+footer{
+position: relative;
+top: -7px;
+   
+    font-size: 1.3rem;
+    font-family: fantasy;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    
+
+}
+
+
+.produtos li{
+    border: solid 5px rgb(0, 0, 0);
+    background-color: aliceblue;
+    height: 390px;
+    width: 307px;
+    position: relative;
+    top: 62px;
+    right: -20px;
+    list-style: none;
+
+
+    
+
+}
+
+
+
+#fogao dd{
+position: relative;
+left: -23px;
+top: 20px;
+}
+
+#filtro dd{
+    position: relative;
+    top: 91px;
+    right: 20px;
+}
+
+#filtro dt{
+    position: relative;
+    top: 80px;
+}
+
+#panela dt{
+    position: relative;
+    top: 67px;
+}
+#panela dd{
+    position: relative;
+    top: 67px;
+}
+
+
+
+
